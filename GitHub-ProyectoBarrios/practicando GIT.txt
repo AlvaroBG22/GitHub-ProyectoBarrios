@@ -1,0 +1,36 @@
+Temas para estudiar:
+- gitHab
+- RUP
+
+
+---------------------------------------------------------------------------
+entrar a un servidor:
+
+
+const express = requiere('express')
+const app = express()
+
+app.get('/',(req,res)=>{
+
+	res.send('Hola Mundo')
+}) 
+
+
+app.listen(3000.()=>{
+
+	console.log('server up')
+})
+
+
+
+
+
+-----------------------------------------------------------------------
+1.- Creamos nuestra carpeta
+2.- Entramos a git bash here
+3.- Ponemos el comando: git init--> nos ayudara a entrar a nuestra carpeta
+para ver nuestros archivos.
+4.- Despues agregamos el archivo index.php,el 
+comando sería: git add index.php --> nos permite guardar.
+5.- Y para ver si funciono el guardado pon el comando: git status -s 
+6.- 
